@@ -43,6 +43,10 @@ h1 {
 
 /* WRAPPER */
 
+.png-wrapper img {
+    object-fit: contain;
+}
+
 .wrapper ul {
     display: grid;
     padding: 1rem;
@@ -52,6 +56,8 @@ h1 {
 }
 
 .wrapper li {
+    width: 26.75rem;
+    height: 17.1875rem;
     border-radius: 1rem;
     overflow: hidden;
 }
